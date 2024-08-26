@@ -1,0 +1,63 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titleView {
+    display: flex;
+    height: 10vh;
+    width: 100%;
+
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+
+    margin : auto;
+    padding: auto;
+    padding-left: 35px;
+}
+.title {
+    color : rgb(134, 123, 123);
+    opacity : 50%;
+
+    font-size: 35px;
+    font-weight: 600;
+
+    padding-top: 0px;
+    margin-top : 0px;
+    margin-bottom: 0px;
+}
+
+.calendarView {
+    display: flex;
+    height : 80vh;
+    width: 100%;
+
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;   
+}
+
+.settingView {
+    display: flex;
+
+    width:80%;
+    flex-direction: row;
+}
+
+.dallyuk {
+    font-size: 50px;
+    font-weight: 1000;
+    margin: 0;
+    padding: 5px;
+}
+
+.calendar {
+    margin: auto;
+}
+
+.dateSet {
+    font-size: 30px;
+    font-weight: 1000;
+}
